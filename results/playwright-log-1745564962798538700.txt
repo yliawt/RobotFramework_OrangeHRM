@@ -1,0 +1,104 @@
+{"level":30,"time":"2025-04-25T07:09:24.877Z","pid":8636,"hostname":"ASY-9081492483","msg":"Listening on 61027"}
+(node:8636) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-25T07:09:25.480Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-25T07:09:26.683Z","pid":8636,"hostname":"ASY-9081492483","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-25T07:09:26.685Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-25T07:09:26.685Z","pid":8636,"hostname":"ASY-9081492483","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-25T07:09:26.701Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-25T07:09:26.702Z","pid":8636,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-04-25T07:09:26.703Z","pid":8636,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-25T07:09:26.703Z","pid":8636,"hostname":"ASY-9081492483","msg":"Trace file: "}
+{"level":30,"time":"2025-04-25T07:09:26.750Z","pid":8636,"hostname":"ASY-9081492483","msg":"Changed active context"}
+{"level":30,"time":"2025-04-25T07:09:26.751Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-25T07:09:26.765Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-25T07:09:26.766Z","pid":8636,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-25T07:09:27.736Z","pid":8636,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-25T07:09:27.737Z","pid":8636,"hostname":"ASY-9081492483","msg":"Changed active page"}
+{"level":30,"time":"2025-04-25T07:09:33.347Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-25T07:09:33.364Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-25T07:09:33.365Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
+{"level":30,"time":"2025-04-25T07:09:33.900Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-25T07:09:33.910Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-25T07:09:33.910Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
+{"level":30,"time":"2025-04-25T07:09:33.928Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-25T07:09:33.939Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-25T07:09:33.940Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
+{"level":30,"time":"2025-04-25T07:09:36.129Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-25T07:09:36.143Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-25T07:09:36.144Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
+{"level":30,"time":"2025-04-25T07:09:37.244Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-25T07:09:37.257Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-25T07:09:37.257Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
+{"level":30,"time":"2025-04-25T07:09:37.360Z","pid":8636,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
+{"level":30,"time":"2025-04-25T07:09:37.360Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-25T07:09:37.382Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-25T07:09:37.382Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
+{"level":30,"time":"2025-04-25T07:09:38.660Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-25T07:09:38.678Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-25T07:09:38.678Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
+{"level":30,"time":"2025-04-25T07:09:39.923Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-25T07:09:39.941Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-25T07:09:39.941Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
+{"level":30,"time":"2025-04-25T07:09:41.156Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-25T07:09:41.169Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-25T07:09:41.169Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
+{"level":30,"time":"2025-04-25T07:09:41.768Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-25T07:09:41.784Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-25T07:09:41.784Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
+{"level":30,"time":"2025-04-25T07:09:41.850Z","pid":8636,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
+{"level":30,"time":"2025-04-25T07:09:41.850Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-25T07:09:41.879Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-25T07:09:41.879Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
+{"level":30,"time":"2025-04-25T07:09:42.551Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-25T07:09:44.565Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-25T07:09:44.565Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h6[text()='Add User'] in page."}
+{"level":30,"time":"2025-04-25T07:09:44.584Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-25T07:09:44.588Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-25T07:09:44.588Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h6[text()='Add User'] in page."}
+{"level":30,"time":"2025-04-25T07:09:44.614Z","pid":8636,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h6[text()='Add User'] containing Add User"}
+{"level":30,"time":"2025-04-25T07:09:44.614Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-25T07:09:44.627Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-25T07:09:44.627Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
+{"level":30,"time":"2025-04-25T07:09:44.655Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-25T07:09:44.661Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-25T07:09:44.661Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
+{"level":30,"time":"2025-04-25T07:09:44.707Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-25T07:09:44.716Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-25T07:09:44.716Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-25T07:09:44.782Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-25T07:09:44.787Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-25T07:09:44.787Z","pid":8636,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=Ranga Akunuri in page."}
+{"level":30,"time":"2025-04-25T07:09:45.444Z","pid":8636,"hostname":"ASY-9081492483","msg":"Removed page=fa7bfc86-986b-449b-b2ce-b08d40f4f014 from context=b8e44a77-a993-4bb0-90b0-0d51b5b192b5 page stack"}
+{"level":40,"time":"2025-04-25T07:09:45.446Z","pid":8636,"hostname":"ASY-9081492483","msg":"Supress locator.click: Target page, context or browser has been closed error"}
+{"level":30,"time":"2025-04-25T07:09:45.446Z","pid":8636,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-25T07:09:45.454Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at findLocator (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10682:3)
+    at internalClick (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11888:25)
+    at click (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11871:24)
+    at PlaywrightServer.click (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
+    at Object.onReceiveHalfClose (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+=============================================================
+{"level":30,"time":"2025-04-25T07:09:45.454Z","pid":8636,"hostname":"ASY-9081492483","msg":"Error of node method  click"}
+{"level":30,"time":"2025-04-25T07:09:45.523Z","pid":8636,"hostname":"ASY-9081492483","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
+    at Object.onReceiveHalfClose (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-25T07:09:45.523Z","pid":8636,"hostname":"ASY-9081492483","msg":"Error of node method  takeScreenshot"}
