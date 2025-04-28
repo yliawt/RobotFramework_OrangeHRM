@@ -1,4 +1,5 @@
-
+dashboard_title = 'css=h6.oxd-topbar-header-breadcrumb-module'
+user_management_title = "xpath=//h5[text()='System Users']"
 #login credentials
 login_username = "Admin"    
 login_password = "admin123"

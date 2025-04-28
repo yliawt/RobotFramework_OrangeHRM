@@ -9,7 +9,6 @@ Delete Existing User
     Select Delete Button
     Confirm Delete User
     Check User Detail Deleted
-    Log To Console    User Detail is deleted
 
 
 

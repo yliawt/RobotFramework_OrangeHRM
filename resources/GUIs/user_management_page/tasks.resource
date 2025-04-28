@@ -10,7 +10,6 @@ Variables  ../../../configs/testdata.py
 Select Add button
     Select Add User Button
     Verify is add user page
-    Log To Console    Add User Page is Opened
 
 Fill in all Details
     Select from Selection Dropdown    ${user_role_field}    ${user_role}
@@ -23,10 +22,11 @@ Fill in all Details
 Select Save Button
     Click Save Button
 ####Edit Existing User Keywords#####################################################
-Select Edit Button
-    Search Corresponding Edit Button    ${employee_username}
+
 
 Update User Detail
+    Select from Selection Dropdown    ${user_role_field}    ${updated_user_role}
+    Select from Selection Dropdown    ${employee_status_field}    ${updated_employee_status}
     Fill in Text Field        ${employee_username_field}    ${updated_employee_username}
 
 Click Table Row Checkbox
@@ -43,10 +43,10 @@ Select Delete Button
     Click Delete Button    ${updated_employee_username}
 
 Confirm Delete User
-    Wait For Elements State    xpath=//div[contains(@class,"orangehrm-dialog-popup")]    visible    timeout=10s
-    ${confirmation_text}=    Get Text    xpath=//p[contains(@class,"oxd-text--card-title")]
+    Wait For Elements State    ${delete_popup_modal}    visible    timeout=10s
+    ${confirmation_text}=    Get Text    ${delete_popup_header}
     Should Be Equal    ${confirmation_text}    Are you Sure?
-    Click     xpath=//button[normalize-space(.)='Yes, Delete']
+    Click     ${delete_popup_agree}
 
 
 Check User Detail Deleted

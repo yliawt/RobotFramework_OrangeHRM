@@ -6,8 +6,7 @@ Test Setup   Open Website, Login as Admin, Open User Management Page (All Verifi
 
 *** Test Cases ***
 Update Existing User
-    Select Edit Button
+    Click Edit Button    ${employee_username}
     Update User Detail
     Click Save Button
     Check User Detail Update
-    Log To Console    User Detail is updated

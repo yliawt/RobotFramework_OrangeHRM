@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-25T16:28:33.100343" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-28T08:55:47.818548" rpa="false" schemaversion="5">
 <suite id="s1" name="Updated Orange Project" source="c:\Users\LIAW004\projects\Updated_Orange_Project">
 <suite id="s1-s1" name="Tests" source="c:\Users\LIAW004\projects\Updated_Orange_Project\Tests">
 <suite id="s1-s1-s1" name="GUIs" source="c:\Users\LIAW004\projects\Updated_Orange_Project\Tests\GUIs">
@@ -9,12 +9,12 @@
 <kw name="Open Website, Login as Admin, Open User Management Page (All Verified)" owner="tasks" type="SETUP">
 <kw name="Open Login Page" owner="actions">
 <kw name="Open Browser" owner="Browser">
-<msg time="2025-04-25T16:28:33.338690" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg time="2025-04-25T16:28:33.339930" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "c:\\Users\\LIAW004\\projects\\Updated_Orange_Project\\results\\browser\\traces\\temp\\904a5724-37d1-4349-8c5b-1579ac81b755"}</msg>
-<msg time="2025-04-25T16:28:33.375913" level="INFO">Starting Browser process c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 64389</msg>
-<msg time="2025-04-25T16:28:33.376312" level="INFO">Node startup parameters: ['node', 'c:\\Users\\LIAW004\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '64389']</msg>
-<msg time="2025-04-25T16:28:34.966238" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"c:\\Users\\LIAW004\\projects\\Updated_Orange_Project\\results\\browser\\traces\\temp\\904a5724-37d1-4349-8c5b-1579ac81b755"}</msg>
-<msg time="2025-04-25T16:28:34.970667" level="INFO">{
+<msg time="2025-04-28T08:55:48.254659" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-04-28T08:55:48.257814" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "c:\\Users\\LIAW004\\projects\\Updated_Orange_Project\\results\\browser\\traces\\temp\\471365dd-1ae0-430c-bcf4-771b36aa4f4b"}</msg>
+<msg time="2025-04-28T08:55:48.311948" level="INFO">Starting Browser process c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 52812</msg>
+<msg time="2025-04-28T08:55:48.312370" level="INFO">Node startup parameters: ['node', 'c:\\Users\\LIAW004\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '52812']</msg>
+<msg time="2025-04-28T08:55:50.692762" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"c:\\Users\\LIAW004\\projects\\Updated_Orange_Project\\results\\browser\\traces\\temp\\471365dd-1ae0-430c-bcf4-771b36aa4f4b"}</msg>
+<msg time="2025-04-28T08:55:50.698145" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": true,
   "forcedColors": "none",
@@ -24,262 +24,262 @@
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
   "viewport": {
-    "width": 1280,
-    "height": 720
+    "height": 720,
+    "width": 1280
   }
 }</msg>
-<msg time="2025-04-25T16:28:35.000023" level="INFO">Successfully created context. </msg>
-<msg time="2025-04-25T16:28:35.000554" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
-<msg time="2025-04-25T16:28:38.663359" level="INFO">Successfully initialized new page object and opened url: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</msg>
+<msg time="2025-04-28T08:55:50.751195" level="INFO">Successfully created context. </msg>
+<msg time="2025-04-28T08:55:50.751747" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-04-28T08:55:55.218693" level="INFO">Successfully initialized new page object and opened url: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</msg>
 <arg>${loginpage_url}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<status status="PASS" start="2025-04-25T16:28:33.338080" elapsed="5.325663"/>
+<status status="PASS" start="2025-04-28T08:55:48.253376" elapsed="6.966234"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:33.337260" elapsed="5.327094"/>
+<status status="PASS" start="2025-04-28T08:55:48.251601" elapsed="6.968458"/>
 </kw>
 <kw name="Enter Admin Credentials" owner="actions">
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-04-25T16:28:38.667042" level="INFO">Fills the text 'Admin' in the given field.</msg>
+<msg time="2025-04-28T08:55:55.223464" level="INFO">Fills the text 'Admin' in the given field.</msg>
 <arg>${login_username_field}</arg>
 <arg>${login_username}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:38.665889" elapsed="1.897896"/>
+<status status="PASS" start="2025-04-28T08:55:55.221931" elapsed="0.473696"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-04-25T16:28:40.565311" level="INFO">Fills the text 'admin123' in the given field.</msg>
+<msg time="2025-04-28T08:55:55.697824" level="INFO">Fills the text 'admin123' in the given field.</msg>
 <arg>${login_password_field}</arg>
 <arg>${login_password}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:40.564159" elapsed="0.015886"/>
+<status status="PASS" start="2025-04-28T08:55:55.696180" elapsed="0.024866"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:38.664700" elapsed="1.915646"/>
+<status status="PASS" start="2025-04-28T08:55:55.220589" elapsed="0.500878"/>
 </kw>
 <kw name="Click Login Button" owner="actions">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-25T16:28:40.581923" level="INFO">Clicks the element '//button[@type='submit']'.</msg>
+<msg time="2025-04-28T08:55:55.723464" level="INFO">Clicks the element '//button[@type='submit']'.</msg>
 <arg>${login_button}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:40.581389" elapsed="1.914842"/>
+<status status="PASS" start="2025-04-28T08:55:55.722629" elapsed="1.455347"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:40.580615" elapsed="1.915862"/>
+<status status="PASS" start="2025-04-28T08:55:55.721903" elapsed="1.456314"/>
 </kw>
 <kw name="Verify Admin Login is successful" owner="actions">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-25T16:28:43.377660" level="INFO">Waited for Element with selector css=h6.oxd-topbar-header-breadcrumb-module at state visible</msg>
+<msg time="2025-04-28T08:55:57.646454" level="INFO">Waited for Element with selector css=h6.oxd-topbar-header-breadcrumb-module at state visible</msg>
 <arg>css=h6.oxd-topbar-header-breadcrumb-module</arg>
 <arg>visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-25T16:28:42.497289" elapsed="0.881134"/>
+<status status="PASS" start="2025-04-28T08:55:57.179167" elapsed="0.467853"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-25T16:28:43.407279" level="INFO">Text: 'Dashboard'</msg>
-<msg time="2025-04-25T16:28:43.407555" level="INFO">${text} = Dashboard</msg>
+<msg time="2025-04-28T08:55:57.692895" level="INFO">Text: 'Dashboard'</msg>
+<msg time="2025-04-28T08:55:57.693479" level="INFO">${text} = Dashboard</msg>
 <var>${text}</var>
 <arg>css=h6.oxd-topbar-header-breadcrumb-module</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:43.378703" elapsed="0.028951"/>
+<status status="PASS" start="2025-04-28T08:55:57.647376" elapsed="0.046355"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${text}</arg>
 <arg>Dashboard</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2025-04-25T16:28:43.407859" elapsed="0.000598"/>
+<status status="PASS" start="2025-04-28T08:55:57.694238" elapsed="0.001035"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:42.496652" elapsed="0.911925"/>
+<status status="PASS" start="2025-04-28T08:55:57.178463" elapsed="0.517016"/>
 </kw>
 <kw name="Open User Management Page" owner="actions">
 <kw name="Click" owner="Browser">
-<msg time="2025-04-25T16:28:43.410402" level="INFO">Clicks the element '//a[@class="oxd-main-menu-item"]//span[text()="Admin"]'.</msg>
+<msg time="2025-04-28T08:55:57.698424" level="INFO">Clicks the element '//a[@class="oxd-main-menu-item"]//span[text()="Admin"]'.</msg>
 <arg>${admin_tab}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:43.409262" elapsed="1.039927"/>
+<status status="PASS" start="2025-04-28T08:55:57.696837" elapsed="1.052579"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-25T16:28:44.451097" level="INFO">Clicks the element '//span[normalize-space()='User Management']'.</msg>
+<msg time="2025-04-28T08:55:58.751245" level="INFO">Clicks the element '//span[normalize-space()='User Management']'.</msg>
 <arg>${user_tab}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:44.449825" elapsed="1.370233"/>
+<status status="PASS" start="2025-04-28T08:55:58.749946" elapsed="0.944967"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-25T16:28:45.820899" level="INFO">Clicks the element '//ul[@class='oxd-dropdown-menu']//li'.</msg>
+<msg time="2025-04-28T08:55:59.696462" level="INFO">Clicks the element '//ul[@class='oxd-dropdown-menu']//li'.</msg>
 <arg>${user_management_tab}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:45.820294" elapsed="1.267433"/>
+<status status="PASS" start="2025-04-28T08:55:59.695231" elapsed="1.236432"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:43.408718" elapsed="3.679192"/>
+<status status="PASS" start="2025-04-28T08:55:57.695739" elapsed="3.236284"/>
 </kw>
 <kw name="Verify User Management Page is Opened" owner="actions">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-25T16:28:47.945650" level="INFO">Waited for Element with selector xpath=//h5[text()='System Users'] at state visible</msg>
+<msg time="2025-04-28T08:56:01.344183" level="INFO">Waited for Element with selector xpath=//h5[text()='System Users'] at state visible</msg>
 <arg>xpath=//h5[text()='System Users']</arg>
 <arg>visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-25T16:28:47.088808" elapsed="0.857248"/>
+<status status="PASS" start="2025-04-28T08:56:00.933127" elapsed="0.411732"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-25T16:28:47.987622" level="INFO">Text: 'System Users'</msg>
-<msg time="2025-04-25T16:28:47.987890" level="INFO">${text} = System Users</msg>
+<msg time="2025-04-28T08:56:01.381813" level="INFO">Text: 'System Users'</msg>
+<msg time="2025-04-28T08:56:01.382153" level="INFO">${text} = System Users</msg>
 <var>${text}</var>
 <arg>xpath=//h5[text()='System Users']</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:47.947070" elapsed="0.040976"/>
+<status status="PASS" start="2025-04-28T08:56:01.345725" elapsed="0.036848"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${text}</arg>
 <arg>System Users</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2025-04-25T16:28:47.988236" elapsed="0.000517"/>
+<status status="PASS" start="2025-04-28T08:56:01.382840" elapsed="0.000765"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:47.088171" elapsed="0.900716"/>
+<status status="PASS" start="2025-04-28T08:56:00.932354" elapsed="0.451419"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:33.336372" elapsed="14.652597"/>
+<status status="PASS" start="2025-04-28T08:55:48.250442" elapsed="13.133441"/>
 </kw>
 <kw name="Select Delete Button" owner="tasks">
 <kw name="Click Delete Button" owner="actions">
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-04-25T16:28:47.991264" level="INFO">${delete_button_locator} = xpath=//div[@role="row" and .//div[text()="ranga22"]]//i[contains(@class,"bi-trash")]/ancestor::button</msg>
+<msg time="2025-04-28T08:56:01.386636" level="INFO">${delete_button_locator} = //div[@role="row" and .//div[text()="aranga22"]]//i[contains(@class,"bi-trash")]/ancestor::button</msg>
 <var>${delete_button_locator}</var>
-<arg>xpath=//div[@role="row" and .//div[text()="${updated_employee_username}"]]//i[contains(@class,"bi-trash")]/ancestor::button</arg>
+<arg>${delete_button.format(emp_uname='${updated_employee_username}')}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-04-25T16:28:47.990804" elapsed="0.000748"/>
+<status status="PASS" start="2025-04-28T08:56:01.385657" elapsed="0.001280"/>
 </kw>
 <kw name="Scroll To Element" owner="Browser">
-<arg>xpath=//div[@role="row" and .//div[text()="${updated_employee_username}"]]</arg>
+<arg>${delete_button.format(emp_uname='${updated_employee_username}')}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>This method waits for actionability checks, then tries to scroll element into view,
 unless it is completely visible.</doc>
-<status status="PASS" start="2025-04-25T16:28:47.991704" elapsed="0.036187"/>
+<status status="PASS" start="2025-04-28T08:56:01.387153" elapsed="0.344804"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-25T16:28:48.036170" level="INFO">Waited for Element with selector xpath=//div[@role="row" and .//div[text()="ranga22"]]//i[contains(@class,"bi-trash")]/ancestor::button at state visible</msg>
+<msg time="2025-04-28T08:56:01.739112" level="INFO">Waited for Element with selector //div[@role="row" and .//div[text()="aranga22"]]//i[contains(@class,"bi-trash")]/ancestor::button at state visible</msg>
 <arg>${delete_button_locator}</arg>
 <arg>state=visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.028227" elapsed="0.008224"/>
+<status status="PASS" start="2025-04-28T08:56:01.732228" elapsed="0.007237"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-25T16:28:48.037825" level="INFO">Clicks the element 'xpath=//div[@role="row" and .//div[text()="ranga22"]]//i[contains(@class,"bi-trash")]/ancestor::button'.</msg>
+<msg time="2025-04-28T08:56:01.740709" level="INFO">Clicks the element '//div[@role="row" and .//div[text()="aranga22"]]//i[contains(@class,"bi-trash")]/ancestor::button'.</msg>
 <arg>${delete_button_locator}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.036633" elapsed="0.053395"/>
+<status status="PASS" start="2025-04-28T08:56:01.739700" elapsed="0.055954"/>
 </kw>
 <arg>${updated_employee_username}</arg>
-<status status="PASS" start="2025-04-25T16:28:47.990167" elapsed="0.100267"/>
+<status status="PASS" start="2025-04-28T08:56:01.385099" elapsed="0.410783"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:47.989347" elapsed="0.101302"/>
+<status status="PASS" start="2025-04-28T08:56:01.384391" elapsed="0.411628"/>
 </kw>
 <kw name="Confirm Delete User" owner="tasks">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-25T16:28:48.098684" level="INFO">Waited for Element with selector xpath=//div[contains(@class,"orangehrm-dialog-popup")] at state visible</msg>
-<arg>xpath=//div[contains(@class,"orangehrm-dialog-popup")]</arg>
+<msg time="2025-04-28T08:56:01.804669" level="INFO">Waited for Element with selector //div[contains(@class,"orangehrm-dialog-popup")] at state visible</msg>
+<arg>${delete_popup_modal}</arg>
 <arg>visible</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.091756" elapsed="0.007212"/>
+<status status="PASS" start="2025-04-28T08:56:01.797142" elapsed="0.007876"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-04-25T16:28:48.116967" level="INFO">Text: 'Are you Sure?'</msg>
-<msg time="2025-04-25T16:28:48.117695" level="INFO">${confirmation_text} = Are you Sure?</msg>
+<msg time="2025-04-28T08:56:01.823911" level="INFO">Text: 'Are you Sure?'</msg>
+<msg time="2025-04-28T08:56:01.824261" level="INFO">${confirmation_text} = Are you Sure?</msg>
 <var>${confirmation_text}</var>
-<arg>xpath=//p[contains(@class,"oxd-text--card-title")]</arg>
+<arg>${delete_popup_header}</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.099163" elapsed="0.018735"/>
+<status status="PASS" start="2025-04-28T08:56:01.805270" elapsed="0.019132"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${confirmation_text}</arg>
 <arg>Are you Sure?</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.118225" elapsed="0.001711"/>
+<status status="PASS" start="2025-04-28T08:56:01.824652" elapsed="0.000544"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-04-25T16:28:48.120929" level="INFO">Clicks the element 'xpath=//button[normalize-space(.)='Yes, Delete']'.</msg>
-<arg>xpath=//button[normalize-space(.)='Yes, Delete']</arg>
+<msg time="2025-04-28T08:56:01.826123" level="INFO">Clicks the element '//button[normalize-space(.)='Yes, Delete']'.</msg>
+<arg>${delete_popup_agree}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.120210" elapsed="0.050992"/>
+<status status="PASS" start="2025-04-28T08:56:01.825385" elapsed="0.052841"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:48.091200" elapsed="0.080168"/>
+<status status="PASS" start="2025-04-28T08:56:01.796540" elapsed="0.082047"/>
 </kw>
 <kw name="Check User Detail Deleted" owner="tasks">
 <kw name="Verify User Is Deleted" owner="actions">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-04-25T16:28:48.182615" level="INFO">Waited for Element with selector text=ranga22 at state detached</msg>
+<msg time="2025-04-28T08:56:01.892150" level="INFO">Waited for Element with selector text=aranga22 at state detached</msg>
 <arg>text=${emp_username}</arg>
 <arg>state=detached</arg>
 <arg>timeout=10s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.172565" elapsed="0.010385"/>
+<status status="PASS" start="2025-04-28T08:56:01.880804" elapsed="0.011697"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>User '${emp_username}' has been deleted and is no longer on the page</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.183155" elapsed="0.000994"/>
+<status status="PASS" start="2025-04-28T08:56:01.892745" elapsed="0.001071"/>
 </kw>
 <arg>${updated_employee_username}</arg>
-<status status="PASS" start="2025-04-25T16:28:48.172221" elapsed="0.012110"/>
+<status status="PASS" start="2025-04-28T08:56:01.880093" elapsed="0.013919"/>
 </kw>
-<status status="PASS" start="2025-04-25T16:28:48.171754" elapsed="0.012669"/>
+<status status="PASS" start="2025-04-28T08:56:01.879162" elapsed="0.015077"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>User Detail is deleted</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-04-25T16:28:48.184723" elapsed="0.000608"/>
+<status status="PASS" start="2025-04-28T08:56:01.894915" elapsed="0.001198"/>
 </kw>
-<msg time="2025-04-25T16:28:48.188829" level="INFO">Set timeout to: 10000</msg>
-<msg time="2025-04-25T16:28:48.203480" level="INFO">Switching context to context=f977aaad-79df-438d-b523-1b5bc1cf9de4 in CURRENT</msg>
-<msg time="2025-04-25T16:28:48.217720" level="INFO">Successfully changed active context: context=f977aaad-79df-438d-b523-1b5bc1cf9de4</msg>
-<msg time="2025-04-25T16:28:48.292632" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-04-25T16:28:33.334603" elapsed="14.851082"/>
+<msg time="2025-04-28T08:56:01.901421" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-04-28T08:56:01.918405" level="INFO">Switching context to context=c3785080-bed0-4627-9ebc-8a59e9daa81f in CURRENT</msg>
+<msg time="2025-04-28T08:56:01.934881" level="INFO">Successfully changed active context: context=c3785080-bed0-4627-9ebc-8a59e9daa81f</msg>
+<msg time="2025-04-28T08:56:02.021716" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-04-28T08:55:48.248143" elapsed="13.648632"/>
 </test>
-<status status="PASS" start="2025-04-25T16:28:33.133661" elapsed="15.165778"/>
+<status status="PASS" start="2025-04-28T08:55:47.880687" elapsed="14.154880"/>
 </suite>
-<status status="PASS" start="2025-04-25T16:28:33.131027" elapsed="15.182754"/>
+<status status="PASS" start="2025-04-28T08:55:47.876320" elapsed="14.175531"/>
 </suite>
-<status status="PASS" start="2025-04-25T16:28:33.128682" elapsed="15.187560"/>
+<status status="PASS" start="2025-04-28T08:55:47.872151" elapsed="14.185767"/>
 </suite>
-<status status="PASS" start="2025-04-25T16:28:33.125883" elapsed="15.192267"/>
+<status status="PASS" start="2025-04-28T08:55:47.867054" elapsed="14.195874"/>
 </suite>
-<status status="PASS" start="2025-04-25T16:28:33.105876" elapsed="15.214759"/>
+<status status="PASS" start="2025-04-28T08:55:47.826570" elapsed="14.243805"/>
 </suite>
 <statistics>
 <total>
@@ -296,6 +296,6 @@ unless it is completely visible.</doc>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-04-25T16:28:33.338690" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-04-28T08:55:48.254659" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>

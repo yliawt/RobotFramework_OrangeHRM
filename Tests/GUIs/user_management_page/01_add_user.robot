@@ -9,5 +9,6 @@ Add New User to OrangeHRM
     Select Add Button
     Fill in All Details
     Select Save Button
+    Verify User Is Updated    ${employee_username}
 
 

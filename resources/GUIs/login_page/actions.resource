@@ -16,10 +16,9 @@ Click Login Button
     Click    ${login_button}
     
 Verify Admin Login is successful
-    Wait For Elements State         css=h6.oxd-topbar-header-breadcrumb-module    visible    timeout=10s
-    ${text}=    Get Text            css=h6.oxd-topbar-header-breadcrumb-module
+    Wait For Elements State         ${dashboard_title}    visible    timeout=10s
+    ${text}=    Get Text            ${dashboard_title} 
     Should Be Equal                 ${text}    Dashboard
-
 
 Open User Management Page
     Click   ${admin_tab}
@@ -27,6 +26,6 @@ Open User Management Page
     Click   ${user_management_tab}
 
 Verify User Management Page is Opened
-    Wait For Elements State    xpath=//h5[text()='System Users']    visible    timeout=10s
-    ${text}=    Get Text       xpath=//h5[text()='System Users']
+    Wait For Elements State    ${user_management_title}    visible    timeout=10s
+    ${text}=    Get Text       ${user_management_title}
     Should Be Equal    ${text}    System Users
