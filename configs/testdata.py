@@ -17,7 +17,5 @@ updated_employee_username = 'aranga22'
 updated_employee_password = '3344Qwerty??'
 updated_employee_confirm_password = '3344Qwerty??'
 
-
-
 error_message_field='css=.oxd-input-field-error-message'
 #role_error_message= "Required !"
