@@ -1,0 +1,80 @@
+*** Settings ***
+Library    Browser
+Resource   ../../../resources/GUIs/user_management_page/tasks.resource
+Resource   ../../../resources/GUIs/login_page/tasks.resource
+Test Setup   Open Website, Login as Admin, Open User Management Page (All Verified)
+
+*** Test Cases ***
+Edit User to OrangeHRM without password(Positive Test)
+    Click Edit Button    ${employee_username}
+    Update User Detail    ${updated_user_role}    ${updated_employee_status}    ${updated_employee_username}
+    Click Save Button
+    Check User Detail Update
+
+Edit User to OrangeHRM with password(Positive Test)
+    Click Edit Button    ${updated_employee_username}
+    Update User Detail    ${updated_user_role}    ${updated_employee_status}    ${updated_employee_username}
+    Update User Password    ${updated_employee_password}    ${updated_employeeconfirm_password} 
+    Click Save Button
+    Check User Detail Update
+
+#####Invalid User Role ##########
+Empty User Role When Add New User
+    Click Edit Button    ${updated_employee_username}
+    Update User Detail    ${invalid_role}    ${updated_employee_status}    ${updated_employee_username}
+    Click Save Button
+    Verify Error Message    ${role_error_message}
+
+#####Invalid User Status ##########
+Empty User Status When Add New User
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${invalid_status}    ${employee_name}    aranga13    ${employee_password}    ${employee_confirm_password}
+    Select Save Button
+    Verify Error Message    ${status_error_message}
+
+#####Invalid Employee Name ##########
+Non-registered Employee Name When Add New User
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${invalid_employee_name}    aranga14    ${employee_password}    ${employee_confirm_password}
+    Select Save Button
+    Verify Error Message    ${name_error_message}
+
+#####Invalid Username ##########
+Short Username When Add New User
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    ${short_employee_username}    ${employee_password}    ${employee_confirm_password}
+    Select Save Button
+    Verify Error Message    ${username_error_message}
+
+Empty Username When Add New User
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    ${empty_input}    ${employee_password}    ${employee_confirm_password}
+    Select Save Button
+    Verify Error Message    ${empty_error_message}    
+
+#####Invalid Password ##########
+Password is less than 7 characters
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    aranga15    ${invalid_password}    ${invalid_password}
+    Select Save Button
+    Verify Error Message    ${short_password_error_message}
+
+Only Integer Input in Password
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    aranga16    ${integer_only_password}    ${integer_only_password}
+    Select Save Button
+    Verify Error Message    ${alphabet_password_error_message}
+
+Only Aphabet Input in Password
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    aranga17    ${alphabet_only_password}    ${alphabet_only_password}
+    Select Save Button
+    Verify Error Message    ${integer_password_error_message}
+
+#####Invalid Confirm Password ##########
+Confirm Password is different with Password
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    aranga15    ${employee_password}    ${mismatch_confirm_password}
+    Select Save Button
+    Verify Error Message    ${password_mismatch_error_message}
+

@@ -23,7 +23,6 @@ Fill in all Details
 Select Save Button
     Click Save Button
 
-####Add New User Keywords####################################################
 Verify Error Message
     [Arguments]    ${error_message}
     Wait For Elements State    ${error_message_field}    visible    timeout=10s
@@ -35,14 +34,16 @@ Verify Error Message
 ####Edit Existing User Keywords#####################################################
 
 Update User Detail
-    Select from Selection Dropdown    ${user_role_field}    ${updated_user_role}
-    Select from Selection Dropdown    ${employee_status_field}    ${updated_employee_status}
-    Fill in Text Field        ${employee_username_field}    ${updated_employee_username}
+    [Arguments]    ${new_user_role}    ${new_employee_status}    ${new_employee_username}
+    Select from Selection Dropdown    ${user_role_field}    ${new_user_role}
+    Select from Selection Dropdown    ${employee_status_field}    ${new_employee_status}
+    Fill in Text Field        ${employee_username_field}    ${new_employee_username}
 
-Update User Password
+Update User Password    
+    [Arguments]    ${new_employee_password}    ${new_employeeconfirm_password} 
     Click    ${change_password_checkbox}
-    Fill in Text Field        ${employee_password_field}    ${updated_employee_password}
-    Fill in Text Field        ${employee_confirm_password_field}    ${updated_employeeconfirm_password}
+    Fill in Text Field        ${employee_password_field}    ${new_employee_password}
+    Fill in Text Field        ${employee_confirm_password_field}    ${new_employeeconfirm_password}
 
 Check User Detail Update
     Verify User Is Updated    ${updated_employee_username}
