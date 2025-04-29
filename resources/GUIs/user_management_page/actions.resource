@@ -17,10 +17,22 @@ Select from Selection Dropdown
     Click    ${field}
     Click    ${content}
 
-Select form Employee DropDown
-    [Arguments]    ${field}    ${content}  
-    Type Text    ${field}    ${content}  
-    Click        text=${content}    
+Select from Employee DropDown
+    [Arguments]    ${field}    ${content}
+    Type Text    ${field}    ${content}
+    Sleep    2s    # Give dropdown time to appear
+    ${count}=    Get Element Count    text=${content}
+    IF    ${count} > 0
+        Click    text=${content}
+    ELSE
+        Click    ${invalid_ename}
+    END
+
+
+
+
+
+
 
 Fill in Text Field
     [Arguments]    ${field}    ${content} 
@@ -29,6 +41,9 @@ Fill in Text Field
 Click Save Button
     Click   ${save_user_button}
     Sleep    2s
+#########################################
+
+
 
 ####Edit Existing User Keywords#####################################################
 Click Edit Button

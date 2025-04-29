@@ -1,7 +1,10 @@
 ##Test Data Information
-user_role = 'css=.oxd-select-dropdown > div:has-text("ESS")'
+ess_role = 'css=.oxd-select-dropdown > div:has-text("ESS")'
+admin_role = 'css=.oxd-select-dropdown > div:has-text("Admin")'
 employee_name = 'Ranga  Akunuri'
-employee_status = 'css=.oxd-select-dropdown > div:has-text("Enabled")'
+enabled_employee_status = 'css=.oxd-select-dropdown > div:has-text("Enabled")'
+disabled_employee_status = 'css=.oxd-select-dropdown > div:has-text("Disabled")'
+status="Enabled"
 employee_username = 'aranga1'
 employee_password = '1122Qwerty!!'
 employee_confirm_password = '1122Qwerty!!'
@@ -16,3 +19,5 @@ updated_employee_confirm_password = '3344Qwerty??'
 
 
 
+error_message_field='css=.oxd-input-field-error-message'
+#role_error_message= "Required !"

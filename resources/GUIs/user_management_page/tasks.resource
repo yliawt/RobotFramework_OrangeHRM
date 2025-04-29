@@ -12,24 +12,34 @@ Select Add button
     Verify is add user page
 
 Fill in all Details
-    Select from Selection Dropdown    ${user_role_field}    ${user_role}
-    Select form Employee DropDown    ${employee_name_field}    ${employee_name}
-    Select from Selection Dropdown    ${employee_status_field}    ${employee_status}
-    Fill in Text Field        ${employee_username_field}    ${employee_username}
-    Fill in Text Field        ${employee_password_field}    ${employee_password}
-    Fill in Text Field        ${employee_confirm_password_field}    ${employeeconfirm_password}
+    [Arguments]    ${input_user_role}    ${input_employee_status}     ${input_employee_name}   ${input_employee_username}    ${input_employee_password}    ${input_employee_confirm_password}
+    Select from Selection Dropdown    ${user_role_field}    ${input_user_role}
+    Select from Selection Dropdown    ${employee_status_field}    ${input_employee_status}
+    Select from Employee DropDown    ${employee_name_field}    ${input_employee_name}  
+    Fill in Text Field        ${employee_username_field}    ${input_employee_username}
+    Fill in Text Field        ${employee_password_field}    ${input_employee_password}
+    Fill in Text Field        ${employee_confirm_password_field}    ${input_employee_confirm_password}
 
 Select Save Button
     Click Save Button
-####Edit Existing User Keywords#####################################################
 
+####Add New User Keywords####################################################
+Verify Error Message
+    [Arguments]    ${error_message}
+    Wait For Elements State    ${error_message_field}    visible    timeout=10s
+    ${text}=    Get Text       ${error_message_field}
+    Should Be Equal            ${text}    ${error_message}
+
+
+
+####Edit Existing User Keywords#####################################################
 
 Update User Detail
     Select from Selection Dropdown    ${user_role_field}    ${updated_user_role}
     Select from Selection Dropdown    ${employee_status_field}    ${updated_employee_status}
     Fill in Text Field        ${employee_username_field}    ${updated_employee_username}
 
-Click Table Row Checkbox
+Update User Password
     Click    ${change_password_checkbox}
     Fill in Text Field        ${employee_password_field}    ${updated_employee_password}
     Fill in Text Field        ${employee_confirm_password_field}    ${updated_employeeconfirm_password}

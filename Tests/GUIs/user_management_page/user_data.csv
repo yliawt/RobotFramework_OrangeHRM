@@ -1,0 +1,7 @@
+*** Test Case ***,User_Role,User_Status,Employee_Name,Employee_Username,Password,Confirm_Password
+All Valid Input,Admin,Enabled,Ranga Akunuri,ranga1,1122Qwerty!!,1122Qwerty!!
+Invalid User Role,,Enabled,Ranga Akunuri,ranga1,1122Qwerty!!,1122Qwerty!!
+Invalid User Status,Admin,,Ranga Akunuri,ranga1,1122Qwerty!!,1122Qwerty!!
+Invalid Employee Name (No Entry),Admin,Enabled,,ranga1,1122Qwerty!!,1122Qwerty!!
+Invalid Employee Name (No registered),Admin,Enabled,Abu,ranga1,1122Qwerty!!,1122Qwerty!!
+Invalid Username (No Entry),Admin,Enabled,Ranga Akunuri,,1122Qwerty!!,1122Qwerty!!
