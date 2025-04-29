@@ -10,3 +10,10 @@ Update Existing User
     Update User Detail
     Click Save Button
     Check User Detail Update
+
+Update Existing User with Password
+    Click Edit Button    ${employee_username}
+    Update User Detail
+    Update User Password
+    Click Save Button
+    Check User Detail Update

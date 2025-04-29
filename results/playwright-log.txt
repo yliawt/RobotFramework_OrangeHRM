@@ -1,780 +1,284 @@
-{"level":30,"time":"2025-04-29T03:19:42.479Z","pid":19136,"hostname":"ASY-9081492483","msg":"Listening on 64007"}
-(node:19136) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-04-29T03:41:30.425Z","pid":33124,"hostname":"ASY-9081492483","msg":"Listening on 65292"}
+(node:33124) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-04-29T03:19:42.570Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-04-29T03:19:43.264Z","pid":19136,"hostname":"ASY-9081492483","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
-{"level":30,"time":"2025-04-29T03:19:43.265Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-04-29T03:19:43.265Z","pid":19136,"hostname":"ASY-9081492483","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-04-29T03:19:43.275Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-29T03:19:43.276Z","pid":19136,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-29T03:19:43.276Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:19:43.276Z","pid":19136,"hostname":"ASY-9081492483","msg":"Trace file: "}
-{"level":30,"time":"2025-04-29T03:19:43.294Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:19:43.294Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-29T03:19:43.301Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-29T03:19:43.302Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:19:43.640Z","pid":19136,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-29T03:19:43.640Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:19:49.126Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-29T03:19:49.132Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:19:49.133Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
-{"level":30,"time":"2025-04-29T03:19:50.513Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:19:50.521Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:19:50.521Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
-{"level":30,"time":"2025-04-29T03:19:50.534Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:19:50.541Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:50.541Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:19:51.748Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:51.754Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:19:51.754Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:19:52.179Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:19:52.186Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:19:52.186Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:19:52.212Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
-{"level":30,"time":"2025-04-29T03:19:52.212Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:19:52.221Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:52.221Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
-{"level":30,"time":"2025-04-29T03:19:53.363Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:53.374Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:53.375Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
-{"level":30,"time":"2025-04-29T03:19:53.812Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:53.818Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:53.818Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
-{"level":30,"time":"2025-04-29T03:19:55.042Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:55.050Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:19:55.050Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:19:55.431Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:19:55.435Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:19:55.435Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:19:55.461Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
-{"level":30,"time":"2025-04-29T03:19:55.461Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:19:55.470Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:55.470Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
-{"level":30,"time":"2025-04-29T03:19:56.113Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.125Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:19:58.125Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:19:58.145Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:19:58.151Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:19:58.151Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:19:58.175Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
-{"level":30,"time":"2025-04-29T03:19:58.175Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:19:58.184Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.184Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:19:58.206Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.210Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.210Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
-{"level":30,"time":"2025-04-29T03:19:58.256Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.261Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.261Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:19:58.303Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.306Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.306Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"Enabled\") in page."}
-{"level":30,"time":"2025-04-29T03:19:58.364Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:19:58.368Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:19:58.368Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:19:58.420Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:00.426Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:20:00.426Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is disabled, return Locator: text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:20:00.430Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:20:00.435Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:00.435Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:20:00.506Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:00.516Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:00.516Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Username\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:20:00.568Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:00.574Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:00.574Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:20:00.625Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:00.631Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:00.631Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Confirm Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:20:00.684Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:00.689Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:00.689Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:20:00.733Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:02.739Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:02.739Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=aranga1 in page."}
-{"level":30,"time":"2025-04-29T03:20:06.502Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:06.512Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.514Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.516Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.518Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.520Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.522Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.530Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.532Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.534Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:20:06.534Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changing current active page: page=6bd7d03f-c15d-4dba-810a-2dd1c6bdc952"}
-{"level":30,"time":"2025-04-29T03:20:06.534Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:20:06.537Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:20:06.549Z","pid":19136,"hostname":"ASY-9081492483","msg":"Removed page=8673f2b9-b26e-462d-8856-8ae5ac335e88 from context=a76b1b7f-0c4a-498f-af29-d860f1b3ac0e page stack"}
-{"level":30,"time":"2025-04-29T03:20:06.569Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:20:06.576Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.576Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:06.587Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:20:06.588Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:20:06.600Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-29T03:20:06.600Z","pid":19136,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-29T03:20:06.600Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:20:06.600Z","pid":19136,"hostname":"ASY-9081492483","msg":"Trace file: "}
-{"level":30,"time":"2025-04-29T03:20:06.611Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:20:06.611Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-29T03:20:06.615Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-29T03:20:06.615Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:20:06.774Z","pid":19136,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-29T03:20:06.774Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:20:09.912Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-29T03:20:09.917Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:09.917Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:11.809Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:11.812Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:11.813Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:11.824Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:11.829Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:11.829Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:20:13.066Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:13.072Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:13.072Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:20:13.504Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:13.508Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:13.508Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:20:13.536Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
-{"level":30,"time":"2025-04-29T03:20:13.536Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:13.543Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:13.543Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:14.743Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:14.751Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:14.751Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
-{"level":30,"time":"2025-04-29T03:20:15.725Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:15.729Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:15.729Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
-{"level":30,"time":"2025-04-29T03:20:16.958Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:16.966Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:16.966Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:20:17.326Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:17.331Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:17.331Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:20:17.356Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
-{"level":30,"time":"2025-04-29T03:20:17.356Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:17.364Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:17.364Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
-{"level":30,"time":"2025-04-29T03:20:17.790Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:19.800Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:19.800Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:20:19.823Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:19.830Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:19.830Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:20:19.888Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
-{"level":30,"time":"2025-04-29T03:20:19.888Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:20.903Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:20.903Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:20:20.937Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:20.940Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:20.940Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"-- Select --\") in page."}
-{"level":30,"time":"2025-04-29T03:20:20.983Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:20.987Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:20.987Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:20:21.032Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:21.035Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:21.035Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"Enabled\") in page."}
-{"level":30,"time":"2025-04-29T03:20:21.085Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:21.089Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:21.089Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:20:21.150Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:23.155Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:20:23.155Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is disabled, return Locator: text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:20:23.160Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:20:23.169Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:23.169Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:20:23.199Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:23.204Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:23.204Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Username\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:20:23.249Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:23.254Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:23.254Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:20:23.301Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:23.307Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:23.307Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Confirm Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:20:23.354Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:23.361Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:23.361Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:20:23.397Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:25.407Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:25.407Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:20:25.412Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:25.415Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:25.415Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:20:25.425Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=.oxd-input-field-error-message containing Required"}
-{"level":30,"time":"2025-04-29T03:20:25.425Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:25.432Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.433Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.435Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.436Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.438Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.440Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.443Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.444Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.446Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:20:25.446Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changing current active page: page=9f7a311f-37b3-40c3-9efe-1f8547280331"}
-{"level":30,"time":"2025-04-29T03:20:25.446Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:20:25.448Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:20:25.457Z","pid":19136,"hostname":"ASY-9081492483","msg":"Removed page=bf37437a-fe65-4360-8871-7aa707ff0a7f from context=325724b7-e6f6-4f82-bd12-4aafe1f0efe4 page stack"}
-{"level":30,"time":"2025-04-29T03:20:25.479Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:20:25.490Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.490Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:25.502Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:20:25.502Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:20:25.509Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-29T03:20:25.509Z","pid":19136,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-29T03:20:25.509Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:20:25.509Z","pid":19136,"hostname":"ASY-9081492483","msg":"Trace file: "}
-{"level":30,"time":"2025-04-29T03:20:25.517Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:20:25.517Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-29T03:20:25.521Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-29T03:20:25.521Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:20:25.644Z","pid":19136,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-29T03:20:25.644Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:20:28.985Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-29T03:20:28.991Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:28.991Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:29.384Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:29.389Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:29.389Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:29.398Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:29.402Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:29.402Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:20:30.888Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:30.891Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:30.891Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:20:31.806Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:31.811Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:31.811Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:20:31.829Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
-{"level":30,"time":"2025-04-29T03:20:31.829Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:31.836Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:31.836Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:32.763Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:32.771Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:32.771Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
-{"level":30,"time":"2025-04-29T03:20:33.640Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:33.643Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:33.643Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
-{"level":30,"time":"2025-04-29T03:20:34.926Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:34.931Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:34.931Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:20:35.771Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:35.774Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:35.774Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:20:35.792Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
-{"level":30,"time":"2025-04-29T03:20:35.792Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:35.798Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:35.798Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
-{"level":30,"time":"2025-04-29T03:20:36.224Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:38.233Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:38.233Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:20:38.247Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:38.250Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:38.250Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:20:38.266Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
-{"level":30,"time":"2025-04-29T03:20:38.266Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:40.282Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:40.282Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:20:40.300Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:40.303Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:40.303Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
-{"level":30,"time":"2025-04-29T03:20:40.352Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:40.355Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:40.355Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:20:40.401Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:40.404Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:40.405Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //div[contains(@class, 'oxd-select-text-input') and normalize-space(text())='-- Select --'] in page."}
-{"level":30,"time":"2025-04-29T03:20:40.433Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:40.437Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:40.437Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:20:40.474Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:42.485Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:20:42.485Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is disabled, return Locator: text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:20:42.489Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:20:42.493Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:42.493Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:20:42.520Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:42.524Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:42.524Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Username\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:20:42.557Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:42.560Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:42.560Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:20:42.600Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:42.603Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:42.603Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Confirm Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:20:42.639Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:42.643Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:42.643Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:20:42.686Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:44.691Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:44.692Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:20:44.695Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:44.699Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:44.699Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:20:44.710Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=.oxd-input-field-error-message containing Required"}
-{"level":30,"time":"2025-04-29T03:20:44.710Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:44.716Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.717Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.719Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.720Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.722Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.723Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.726Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.728Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.730Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:20:44.730Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changing current active page: page=fcb6b2f4-5c77-40f3-8747-30839212aaab"}
-{"level":30,"time":"2025-04-29T03:20:44.730Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:20:44.733Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:20:44.740Z","pid":19136,"hostname":"ASY-9081492483","msg":"Removed page=dbd1f8c4-f60d-4dc6-96da-03abbbe77d01 from context=fdeb5d35-9560-4c10-9d4a-b452410b84b4 page stack"}
-{"level":30,"time":"2025-04-29T03:20:44.756Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:20:44.767Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.767Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:20:44.782Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:20:44.782Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:20:44.790Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-29T03:20:44.790Z","pid":19136,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-29T03:20:44.790Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:20:44.791Z","pid":19136,"hostname":"ASY-9081492483","msg":"Trace file: "}
-{"level":30,"time":"2025-04-29T03:20:44.800Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:20:44.800Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-29T03:20:44.807Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-29T03:20:44.807Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:20:44.943Z","pid":19136,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-29T03:20:44.944Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:20:48.457Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-29T03:20:48.462Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:48.462Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:49.314Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:49.318Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:49.318Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:49.328Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:20:49.331Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:49.331Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:20:50.383Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:50.388Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:50.388Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:20:50.824Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:50.828Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:50.828Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:20:50.849Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
-{"level":30,"time":"2025-04-29T03:20:50.849Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:50.855Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:50.855Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
-{"level":30,"time":"2025-04-29T03:20:51.945Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:51.950Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:51.950Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
-{"level":30,"time":"2025-04-29T03:20:52.832Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:52.836Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:52.837Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
-{"level":30,"time":"2025-04-29T03:20:54.048Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:54.052Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:54.052Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:20:54.894Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:54.898Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:54.898Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:20:54.919Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
-{"level":30,"time":"2025-04-29T03:20:54.919Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:54.924Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:54.924Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
-{"level":30,"time":"2025-04-29T03:20:55.328Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.338Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:57.338Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:20:57.352Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:20:57.355Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:57.355Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:20:57.369Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
-{"level":30,"time":"2025-04-29T03:20:57.370Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:20:57.375Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.375Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:20:57.408Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.411Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.411Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
-{"level":30,"time":"2025-04-29T03:20:57.458Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.462Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.462Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:20:57.507Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.510Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.510Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"Enabled\") in page."}
-{"level":30,"time":"2025-04-29T03:20:57.558Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:57.564Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:57.564Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:20:57.592Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:59.601Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:20:59.601Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is disabled, return Locator: text=!@#$$% in page."}
-{"level":30,"time":"2025-04-29T03:20:59.605Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:20:59.610Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:59.610Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with div[role=\"listbox\"] div[role=\"option\"]:has-text(\"No Records Found\") in page."}
-{"level":30,"time":"2025-04-29T03:20:59.639Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:20:59.643Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:59.643Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Username\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:20:59.671Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:59.674Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:59.674Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:20:59.704Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:59.708Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Confirm Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:20:59.708Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:59.739Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:20:59.743Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:20:59.743Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:20:59.789Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:01.794Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:01.794Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:21:01.797Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:01.800Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:01.801Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:21:01.814Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=.oxd-input-field-error-message containing Invalid"}
-{"level":30,"time":"2025-04-29T03:21:01.814Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:01.823Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.825Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.827Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.828Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.831Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.833Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.836Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.838Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.840Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:21:01.840Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changing current active page: page=94d7e2c9-7859-4854-8bed-f23b34fbf3dc"}
-{"level":30,"time":"2025-04-29T03:21:01.840Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:21:01.843Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:21:01.854Z","pid":19136,"hostname":"ASY-9081492483","msg":"Removed page=78834ba5-0eb4-4d20-9c2e-ffdc37b17043 from context=2f3d072f-c5ca-4b18-9ac4-3befb0b4240a page stack"}
-{"level":30,"time":"2025-04-29T03:21:01.876Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:21:01.885Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.885Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:01.896Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:21:01.896Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:21:01.905Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-29T03:21:01.905Z","pid":19136,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-29T03:21:01.905Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:21:01.905Z","pid":19136,"hostname":"ASY-9081492483","msg":"Trace file: "}
-{"level":30,"time":"2025-04-29T03:21:01.913Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:21:01.913Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-29T03:21:01.918Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-29T03:21:01.918Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:21:02.051Z","pid":19136,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-29T03:21:02.051Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:21:05.567Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-29T03:21:05.571Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:05.571Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:06.419Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:06.423Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:06.423Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:06.432Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:06.436Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:06.436Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:21:07.624Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:07.628Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:07.628Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:21:08.487Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:08.492Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:08.492Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:21:08.516Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
-{"level":30,"time":"2025-04-29T03:21:08.516Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:08.520Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:08.520Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:09.373Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:09.379Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:09.379Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
-{"level":30,"time":"2025-04-29T03:21:09.798Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:09.801Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:09.801Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
-{"level":30,"time":"2025-04-29T03:21:10.560Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:10.564Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:10.564Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:21:11.400Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:11.406Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:11.406Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:21:11.424Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
-{"level":30,"time":"2025-04-29T03:21:11.424Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:11.430Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:11.430Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
-{"level":30,"time":"2025-04-29T03:21:11.822Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:13.828Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:13.828Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:21:13.841Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:13.844Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:13.845Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:21:13.857Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
-{"level":30,"time":"2025-04-29T03:21:13.857Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:13.863Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:13.863Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:21:13.874Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:13.877Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:13.877Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
-{"level":30,"time":"2025-04-29T03:21:13.911Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:13.914Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:13.914Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:21:13.961Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:13.963Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:13.963Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"Enabled\") in page."}
-{"level":30,"time":"2025-04-29T03:21:14.011Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:14.014Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:14.014Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:21:14.051Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:16.057Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:21:16.057Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is disabled, return Locator: text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:21:16.060Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:21:16.064Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:16.064Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:21:16.092Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:16.095Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:16.095Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Username\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:21:16.113Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:16.117Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:16.118Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:21:16.149Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:16.153Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:16.153Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Confirm Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:21:16.182Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:16.187Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:16.187Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:21:16.224Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:18.233Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:18.233Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:21:18.237Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:18.240Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:18.240Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:21:18.252Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=.oxd-input-field-error-message containing Should be at least 5 characters"}
-{"level":30,"time":"2025-04-29T03:21:18.252Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:18.259Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.260Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.262Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.263Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.265Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.268Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.270Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.284Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.287Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:21:18.287Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changing current active page: page=a5051710-35d9-4988-acb3-30efa4c5f969"}
-{"level":30,"time":"2025-04-29T03:21:18.287Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:21:18.306Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:21:18.326Z","pid":19136,"hostname":"ASY-9081492483","msg":"Removed page=f39df06c-c255-48f6-9946-b8a8be49ff84 from context=bd6313a3-0ca2-48bc-b291-523d4f06e855 page stack"}
-{"level":30,"time":"2025-04-29T03:21:18.337Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:21:18.348Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.348Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:18.359Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:21:18.359Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:21:18.368Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-29T03:21:18.368Z","pid":19136,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-29T03:21:18.368Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:21:18.368Z","pid":19136,"hostname":"ASY-9081492483","msg":"Trace file: "}
-{"level":30,"time":"2025-04-29T03:21:18.377Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:21:18.377Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-29T03:21:18.382Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-29T03:21:18.382Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:21:18.532Z","pid":19136,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-29T03:21:18.532Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:21:21.494Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-29T03:21:21.499Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:21.499Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:21.898Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:21.903Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:21.903Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:21.916Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:21.920Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:21.920Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:21:23.392Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:23.397Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:23.397Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:21:23.799Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:23.803Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:23.803Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:21:23.823Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
-{"level":30,"time":"2025-04-29T03:21:23.823Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:23.829Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:23.829Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:25.032Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:25.037Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:25.037Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
-{"level":30,"time":"2025-04-29T03:21:25.902Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:25.904Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:25.905Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
-{"level":30,"time":"2025-04-29T03:21:27.119Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:27.124Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:27.124Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:21:27.500Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:27.503Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:27.503Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:21:27.526Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:27.526Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
-{"level":30,"time":"2025-04-29T03:21:27.532Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:27.532Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
-{"level":30,"time":"2025-04-29T03:21:28.163Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.173Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:30.173Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:21:30.187Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:30.191Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:30.191Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:21:30.204Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
-{"level":30,"time":"2025-04-29T03:21:30.204Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:30.210Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.210Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:21:30.247Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.250Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.250Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
-{"level":30,"time":"2025-04-29T03:21:30.297Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.301Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.301Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:21:30.329Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.332Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.332Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"Enabled\") in page."}
-{"level":30,"time":"2025-04-29T03:21:30.363Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:30.367Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:30.367Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:21:30.405Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:32.412Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:21:32.412Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is disabled, return Locator: text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:21:32.415Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:21:32.419Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:32.419Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:21:32.445Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:32.448Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:32.449Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Username\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:21:32.476Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:32.480Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:32.480Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:21:32.497Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:32.500Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:32.500Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Confirm Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:21:32.516Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:32.521Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:32.521Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:21:32.561Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:34.570Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:34.570Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:21:34.574Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:34.578Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:34.578Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:21:34.588Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=.oxd-input-field-error-message containing Should have at least 7 characters"}
-{"level":30,"time":"2025-04-29T03:21:34.588Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:34.594Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.596Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.597Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.599Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.600Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.602Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.605Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.606Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.608Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:21:34.608Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changing current active page: page=166dd898-afdb-4a8d-a44b-4d6388a56b17"}
-{"level":30,"time":"2025-04-29T03:21:34.608Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:21:34.609Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:21:34.617Z","pid":19136,"hostname":"ASY-9081492483","msg":"Removed page=cbffa102-f406-4a1b-b838-db405134e650 from context=69f4f5c5-f680-441d-b3db-95a3be13e156 page stack"}
-{"level":30,"time":"2025-04-29T03:21:34.637Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:21:34.644Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.645Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:34.659Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:21:34.659Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-04-29T03:21:34.665Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-29T03:21:34.665Z","pid":19136,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-29T03:21:34.665Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:21:34.665Z","pid":19136,"hostname":"ASY-9081492483","msg":"Trace file: "}
-{"level":30,"time":"2025-04-29T03:21:34.672Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:21:34.673Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-29T03:21:34.677Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-29T03:21:34.677Z","pid":19136,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-29T03:21:34.810Z","pid":19136,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-29T03:21:34.810Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:21:38.058Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-29T03:21:38.063Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:38.063Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:38.904Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:38.908Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:38.908Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:38.920Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-29T03:21:38.924Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:38.924Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:21:39.973Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:39.978Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:39.978Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:21:40.913Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:40.917Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:40.917Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
-{"level":30,"time":"2025-04-29T03:21:40.940Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
-{"level":30,"time":"2025-04-29T03:21:40.940Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:40.945Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:40.945Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
-{"level":30,"time":"2025-04-29T03:21:41.800Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:41.805Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:41.805Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
-{"level":30,"time":"2025-04-29T03:21:42.694Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:42.697Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:42.697Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
-{"level":30,"time":"2025-04-29T03:21:43.444Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:43.450Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:43.450Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:21:44.344Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:44.348Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:44.348Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
-{"level":30,"time":"2025-04-29T03:21:44.368Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
-{"level":30,"time":"2025-04-29T03:21:44.368Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:44.375Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:44.375Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
-{"level":30,"time":"2025-04-29T03:21:44.790Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:46.799Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:46.799Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:21:46.814Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:46.816Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:46.817Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
-{"level":30,"time":"2025-04-29T03:21:46.834Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
-{"level":30,"time":"2025-04-29T03:21:46.834Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:46.839Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:46.839Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:21:46.887Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:46.890Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:46.890Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
-{"level":30,"time":"2025-04-29T03:21:46.936Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:46.940Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:46.940Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
-{"level":30,"time":"2025-04-29T03:21:46.968Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:46.971Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:46.971Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"Enabled\") in page."}
-{"level":30,"time":"2025-04-29T03:21:47.002Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:47.006Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:47.006Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:21:47.042Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:49.048Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:21:49.049Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is disabled, return Locator: text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:21:49.052Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getElementCount"}
-{"level":30,"time":"2025-04-29T03:21:49.056Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:49.056Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=Ranga  Akunuri in page."}
-{"level":30,"time":"2025-04-29T03:21:49.084Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:49.088Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:49.088Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Username\") >> xpath=../following-sibling::div//input in page."}
-{"level":30,"time":"2025-04-29T03:21:49.116Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:49.119Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:49.119Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:21:49.150Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:49.153Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:49.153Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Confirm Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
-{"level":30,"time":"2025-04-29T03:21:49.185Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
-{"level":30,"time":"2025-04-29T03:21:49.189Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-29T03:21:49.190Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
-{"level":30,"time":"2025-04-29T03:21:49.234Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method click"}
-{"level":30,"time":"2025-04-29T03:21:51.244Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:51.244Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:21:51.248Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-29T03:21:51.253Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:51.253Z","pid":19136,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-input-field-error-message in page."}
-{"level":30,"time":"2025-04-29T03:21:51.263Z","pid":19136,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=.oxd-input-field-error-message containing Passwords do not match"}
-{"level":30,"time":"2025-04-29T03:21:51.263Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getText"}
-{"level":30,"time":"2025-04-29T03:21:51.269Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.270Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.272Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.273Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.275Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.277Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.280Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.281Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.282Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active context"}
-{"level":30,"time":"2025-04-29T03:21:51.282Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changing current active page: page=30b27dc5-c241-46c6-a280-beffd06fea45"}
-{"level":30,"time":"2025-04-29T03:21:51.282Z","pid":19136,"hostname":"ASY-9081492483","msg":"Changed active page"}
-{"level":30,"time":"2025-04-29T03:21:51.284Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:21:51.294Z","pid":19136,"hostname":"ASY-9081492483","msg":"Removed page=eebfa20a-3dfd-44b1-a1ff-bb1fdb90a686 from context=c2f4b255-30c7-4e44-bd3f-9ad189f9e2bc page stack"}
-{"level":30,"time":"2025-04-29T03:21:51.313Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-04-29T03:21:51.327Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.328Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-29T03:21:51.437Z","pid":19136,"hostname":"ASY-9081492483","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-04-29T03:21:51.696Z","pid":19136,"hostname":"ASY-9081492483","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-29T03:41:30.827Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-29T03:41:31.891Z","pid":33124,"hostname":"ASY-9081492483","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-29T03:41:31.892Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-29T03:41:31.892Z","pid":33124,"hostname":"ASY-9081492483","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-29T03:41:31.909Z","pid":33124,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-29T03:41:31.909Z","pid":33124,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-29T03:41:31.909Z","pid":33124,"hostname":"ASY-9081492483","msg":"Trace file: "}
+{"level":30,"time":"2025-04-29T03:41:31.908Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-29T03:41:31.986Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active context"}
+{"level":30,"time":"2025-04-29T03:41:31.987Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-29T03:41:31.999Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-29T03:41:32.000Z","pid":33124,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-29T03:41:32.291Z","pid":33124,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-29T03:41:32.292Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T03:41:35.990Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-29T03:41:35.998Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-29T03:41:35.999Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
+{"level":30,"time":"2025-04-29T03:41:36.412Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-29T03:41:36.417Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-29T03:41:36.417Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
+{"level":30,"time":"2025-04-29T03:41:36.431Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-29T03:41:36.437Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:36.438Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
+{"level":30,"time":"2025-04-29T03:41:37.920Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:37.924Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:37.925Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
+{"level":30,"time":"2025-04-29T03:41:38.783Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:38.787Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:41:38.787Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
+{"level":30,"time":"2025-04-29T03:41:38.817Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
+{"level":30,"time":"2025-04-29T03:41:38.817Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:41:38.824Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:38.824Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
+{"level":30,"time":"2025-04-29T03:41:39.666Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:39.675Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:39.675Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
+{"level":30,"time":"2025-04-29T03:41:40.099Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:40.103Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:40.103Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
+{"level":30,"time":"2025-04-29T03:41:40.841Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:40.849Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:40.849Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
+{"level":30,"time":"2025-04-29T03:41:41.699Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:41.703Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:41:41.703Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
+{"level":30,"time":"2025-04-29T03:41:41.723Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
+{"level":30,"time":"2025-04-29T03:41:41.723Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:41:41.731Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:41.731Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
+{"level":30,"time":"2025-04-29T03:41:42.129Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.135Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:44.135Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
+{"level":30,"time":"2025-04-29T03:41:44.148Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:44.152Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:41:44.152Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
+{"level":30,"time":"2025-04-29T03:41:44.171Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
+{"level":30,"time":"2025-04-29T03:41:44.171Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:41:44.177Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.177Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
+{"level":30,"time":"2025-04-29T03:41:44.211Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.215Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.215Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
+{"level":30,"time":"2025-04-29T03:41:44.260Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.264Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.264Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
+{"level":30,"time":"2025-04-29T03:41:44.292Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.296Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.296Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"Enabled\") in page."}
+{"level":30,"time":"2025-04-29T03:41:44.327Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:44.331Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T03:41:44.331Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Employee Name\") >> xpath=../following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T03:41:44.381Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T03:41:46.387Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-04-29T03:41:46.388Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is disabled, return Locator: text=Ranga  Akunuri in page."}
+{"level":30,"time":"2025-04-29T03:41:46.392Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-04-29T03:41:46.400Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:46.400Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=Ranga  Akunuri in page."}
+{"level":30,"time":"2025-04-29T03:41:46.428Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:46.433Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T03:41:46.433Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Username\") >> xpath=../following-sibling::div//input in page."}
+{"level":30,"time":"2025-04-29T03:41:46.466Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T03:41:46.473Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T03:41:46.473Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
+{"level":30,"time":"2025-04-29T03:41:46.511Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T03:41:46.514Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-29T03:41:46.514Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//label[text()=\"Confirm Password\"]/ancestor::div[contains(@class, \"oxd-input-group\")]//input in page."}
+{"level":30,"time":"2025-04-29T03:41:46.560Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-29T03:41:46.569Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:46.569Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
+{"level":30,"time":"2025-04-29T03:41:46.607Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:48.612Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:48.612Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with text=ranga1 in page."}
+{"level":30,"time":"2025-04-29T03:41:52.239Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:52.245Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.247Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.249Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.252Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.254Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.255Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.258Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.259Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.262Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active context"}
+{"level":30,"time":"2025-04-29T03:41:52.262Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changing current active page: page=737c7d3a-c1f7-4f57-bb5d-135c3ecb449c"}
+{"level":30,"time":"2025-04-29T03:41:52.262Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T03:41:52.278Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-04-29T03:41:52.297Z","pid":33124,"hostname":"ASY-9081492483","msg":"Removed page=cda48a77-ac0a-4dc2-bb53-b61c501dfa21 from context=83e776e0-3be5-4501-90b3-125543894e79 page stack"}
+{"level":30,"time":"2025-04-29T03:41:52.318Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-04-29T03:41:52.327Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.328Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:41:52.341Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-04-29T03:41:52.341Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-04-29T03:41:52.352Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-29T03:41:52.352Z","pid":33124,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-29T03:41:52.352Z","pid":33124,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-29T03:41:52.352Z","pid":33124,"hostname":"ASY-9081492483","msg":"Trace file: "}
+{"level":30,"time":"2025-04-29T03:41:52.362Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active context"}
+{"level":30,"time":"2025-04-29T03:41:52.362Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-29T03:41:52.367Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-29T03:41:52.367Z","pid":33124,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-29T03:41:52.507Z","pid":33124,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-29T03:41:52.507Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T03:41:55.703Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-29T03:41:55.708Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-29T03:41:55.708Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
+{"level":30,"time":"2025-04-29T03:41:56.552Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-29T03:41:56.556Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-29T03:41:56.556Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
+{"level":30,"time":"2025-04-29T03:41:56.565Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-29T03:41:56.568Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:56.568Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
+{"level":30,"time":"2025-04-29T03:41:57.634Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:57.638Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:57.638Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
+{"level":30,"time":"2025-04-29T03:41:58.086Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:41:58.090Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:41:58.090Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
+{"level":30,"time":"2025-04-29T03:41:58.112Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
+{"level":30,"time":"2025-04-29T03:41:58.112Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:41:58.117Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:58.117Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
+{"level":30,"time":"2025-04-29T03:41:59.307Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:41:59.313Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:41:59.313Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
+{"level":30,"time":"2025-04-29T03:42:00.700Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:00.707Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:00.707Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
+{"level":30,"time":"2025-04-29T03:42:01.446Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:01.450Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:01.450Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
+{"level":30,"time":"2025-04-29T03:42:02.312Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:02.317Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:02.317Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
+{"level":30,"time":"2025-04-29T03:42:02.344Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
+{"level":30,"time":"2025-04-29T03:42:02.344Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:02.353Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
+{"level":30,"time":"2025-04-29T03:42:02.353Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:02.833Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:04.839Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:04.839Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
+{"level":30,"time":"2025-04-29T03:42:04.860Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:04.864Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:04.864Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
+{"level":30,"time":"2025-04-29T03:42:04.879Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
+{"level":30,"time":"2025-04-29T03:42:04.879Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:04.885Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:04.885Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
+{"level":30,"time":"2025-04-29T03:42:04.927Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:04.931Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:04.931Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with  in page."}
+{"level":30,"time":"2025-04-29T03:42:04.933Z","pid":33124,"hostname":"ASY-9081492483","msg":"Error of node method  click"}
+================= Original suppressed error =================
+locator.click: Unexpected token "" while parsing css selector "". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for[22m
+
+    at internalClick (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11890:19)
+    at async click (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11871:18)
+    at async PlaywrightServer.click (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-29T03:42:05.029Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-29T03:42:05.029Z","pid":33124,"hostname":"ASY-9081492483","Take screenshot with options: ":{"path":"c:\\Users\\LIAW004\\projects\\Updated_Orange_Project\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-29T03:42:05.229Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-29T03:42:13.578Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.580Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.582Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.583Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.585Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.587Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.589Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.591Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.592Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active context"}
+{"level":30,"time":"2025-04-29T03:42:13.592Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changing current active page: page=210ee364-4286-45ec-90a4-8231f14312be"}
+{"level":30,"time":"2025-04-29T03:42:13.592Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T03:42:13.596Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-04-29T03:42:13.604Z","pid":33124,"hostname":"ASY-9081492483","msg":"Removed page=40c2cfaf-3a5f-41fa-b85e-2da33a6fff29 from context=379e3014-e91c-4c02-bc79-4e268547249d page stack"}
+{"level":30,"time":"2025-04-29T03:42:13.620Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-04-29T03:42:13.625Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.626Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-29T03:42:13.634Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-04-29T03:42:13.634Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-04-29T03:42:13.642Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-29T03:42:13.642Z","pid":33124,"hostname":"ASY-9081492483","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-29T03:42:13.642Z","pid":33124,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-29T03:42:13.642Z","pid":33124,"hostname":"ASY-9081492483","msg":"Trace file: "}
+{"level":30,"time":"2025-04-29T03:42:13.652Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active context"}
+{"level":30,"time":"2025-04-29T03:42:13.652Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-29T03:42:13.656Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-29T03:42:13.656Z","pid":33124,"hostname":"ASY-9081492483","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-29T03:42:13.777Z","pid":33124,"hostname":"ASY-9081492483","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-29T03:42:13.777Z","pid":33124,"hostname":"ASY-9081492483","msg":"Changed active page"}
+{"level":30,"time":"2025-04-29T03:42:18.271Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-29T03:42:18.276Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-29T03:42:18.276Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Username\"] in page."}
+{"level":30,"time":"2025-04-29T03:42:18.689Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-29T03:42:18.695Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-29T03:42:18.695Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Password\"] in page."}
+{"level":30,"time":"2025-04-29T03:42:18.703Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-29T03:42:18.706Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:18.706Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[@type='submit'] in page."}
+{"level":30,"time":"2025-04-29T03:42:20.331Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:20.335Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:20.335Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
+{"level":30,"time":"2025-04-29T03:42:21.199Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:21.202Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:21.202Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=h6.oxd-topbar-header-breadcrumb-module in page."}
+{"level":30,"time":"2025-04-29T03:42:21.223Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element css=h6.oxd-topbar-header-breadcrumb-module containing Dashboard"}
+{"level":30,"time":"2025-04-29T03:42:21.223Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:21.229Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:21.229Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //a[@class=\"oxd-main-menu-item\"]//span[text()=\"Admin\"] in page."}
+{"level":30,"time":"2025-04-29T03:42:22.700Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:22.705Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:22.705Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //span[normalize-space()='User Management'] in page."}
+{"level":30,"time":"2025-04-29T03:42:24.079Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:24.082Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:24.082Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //ul[@class='oxd-dropdown-menu']//li in page."}
+{"level":30,"time":"2025-04-29T03:42:25.313Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:25.317Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:25.317Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
+{"level":30,"time":"2025-04-29T03:42:26.177Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:26.180Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:26.180Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with xpath=//h5[text()='System Users'] in page."}
+{"level":30,"time":"2025-04-29T03:42:26.202Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element xpath=//h5[text()='System Users'] containing System Users"}
+{"level":30,"time":"2025-04-29T03:42:26.202Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:26.210Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:26.210Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //button[normalize-space()='Add'] in page."}
+{"level":30,"time":"2025-04-29T03:42:26.614Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:28.621Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:28.621Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
+{"level":30,"time":"2025-04-29T03:42:28.632Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-29T03:42:28.636Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:28.636Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with //h6[text()='Add User'] in page."}
+{"level":30,"time":"2025-04-29T03:42:28.653Z","pid":33124,"hostname":"ASY-9081492483","msg":"Retrieved text for element //h6[text()='Add User'] containing Add User"}
+{"level":30,"time":"2025-04-29T03:42:28.653Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-29T03:42:28.658Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:28.658Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"User Role\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
+{"level":30,"time":"2025-04-29T03:42:28.692Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:28.695Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:28.695Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=.oxd-select-dropdown > div:has-text(\"ESS\") in page."}
+{"level":30,"time":"2025-04-29T03:42:28.742Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:28.745Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:28.745Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with css=label:has-text(\"Status\") >> xpath=../following-sibling::div//div[contains(@class,\"oxd-select-text-input\")] in page."}
+{"level":30,"time":"2025-04-29T03:42:28.794Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method click"}
+{"level":30,"time":"2025-04-29T03:42:28.796Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-29T03:42:28.796Z","pid":33124,"hostname":"ASY-9081492483","msg":"Strict mode is enabled, find Locator with  in page."}
+{"level":30,"time":"2025-04-29T03:42:28.797Z","pid":33124,"hostname":"ASY-9081492483","msg":"Error of node method  click"}
+================= Original suppressed error =================
+locator.click: Unexpected token "" while parsing css selector "". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for[22m
+
+    at internalClick (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11890:19)
+    at async click (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11871:18)
+    at async PlaywrightServer.click (c:\Users\LIAW004\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-29T03:42:28.816Z","pid":33124,"hostname":"ASY-9081492483","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-29T03:42:28.816Z","pid":33124,"hostname":"ASY-9081492483","Take screenshot with options: ":{"path":"c:\\Users\\LIAW004\\projects\\Updated_Orange_Project\\results\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-29T03:42:28.937Z","pid":33124,"hostname":"ASY-9081492483","msg":"End of node method takeScreenshot"}

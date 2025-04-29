@@ -13,14 +13,12 @@ Add New User to OrangeHRM (Positive Test)
 
 Invalid User Role Should Show Error
     Select Add Button
-    Leave User Role As Unselected   
     Fill in All Details    ${invalid_role}    ${enabled_employee_status}     ${employee_name}   aranga12    ${employee_password}    ${employee_confirm_password}
     Select Save Button
     Verify Error Message    ${role_error_message}
 
 Invalid User Status Should Show Error
     Select Add Button
-    Leave User Role As Unselected
     Sleep    1s  
     Fill in All Details    ${ess_role}    ${invalid_status}    ${employee_name}    aranga13    ${employee_password}    ${employee_confirm_password}
     Select Save Button
@@ -52,6 +50,3 @@ Confirm Password is different with Password
     Select Save Button
     Verify Error Message    ${password_mismatch_error_message}
 
-*** Keywords ***
-Leave User Role As Unselected
-    Sleep    1s  # Adding a small sleep for stability if needed

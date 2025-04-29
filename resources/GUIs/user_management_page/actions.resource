@@ -28,12 +28,6 @@ Select from Employee DropDown
         Click    ${invalid_ename}
     END
 
-
-
-
-
-
-
 Fill in Text Field
     [Arguments]    ${field}    ${content} 
     Type Text    ${field}    ${content} 
@@ -41,9 +35,6 @@ Fill in Text Field
 Click Save Button
     Click   ${save_user_button}
     Sleep    2s
-#########################################
-
-
 
 ####Edit Existing User Keywords#####################################################
 Click Edit Button
