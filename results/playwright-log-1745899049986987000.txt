@@ -84,3 +84,4 @@ Call log:
 {"level":30,"time":"2025-04-29T03:57:56.001Z","pid":800,"hostname":"ASY-9081492483","msg":"Start of node method takeScreenshot"}
 {"level":30,"time":"2025-04-29T03:57:56.002Z","pid":800,"hostname":"ASY-9081492483","Take screenshot with options: ":{"path":"c:\\Users\\LIAW004\\projects\\Updated_Orange_Project\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
 {"level":30,"time":"2025-04-29T03:57:56.174Z","pid":800,"hostname":"ASY-9081492483","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-29T05:22:53.154Z","pid":800,"hostname":"ASY-9081492483","msg":"Removed page=d8baa44f-2a85-4702-868a-d6fd63711084 from context=4140b196-e808-4eed-bd74-eef9acd93f75 page stack"}

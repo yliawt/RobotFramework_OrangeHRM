@@ -39,12 +39,30 @@ Short Username When Add New User
     Select Save Button
     Verify Error Message    ${username_error_message}
 
+Empty Username When Add New User
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    ${empty_input}    ${employee_password}    ${employee_confirm_password}
+    Select Save Button
+    Verify Error Message    ${empty_error_message}    
+
 #####Invalid Password ##########
 Password is less than 7 characters
     Select Add Button
     Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    aranga15    ${invalid_password}    ${invalid_password}
     Select Save Button
     Verify Error Message    ${short_password_error_message}
+
+Only Integer Input in Password
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    aranga16    ${integer_only_password}    ${integer_only_password}
+    Select Save Button
+    Verify Error Message    ${alphabet_password_error_message}
+
+Only Aphabet Input in Password
+    Select Add Button
+    Fill in All Details    ${ess_role}    ${enabled_employee_status}    ${employee_name}    aranga17    ${alphabet_only_password}    ${alphabet_only_password}
+    Select Save Button
+    Verify Error Message    ${integer_password_error_message}
 
 #####Invalid Confirm Password ##########
 Confirm Password is different with Password
