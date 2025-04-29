@@ -31,7 +31,6 @@ integer_only_password='12345678910'
 alphabet_only_password='abcdefghijk'
 mismatch_confirm_password= '3344Qwerty!!'
 
-
 #error message
 empty_error_message="Required"
 role_error_message = 'Required'
